@@ -120,13 +120,3 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 headerObserver.observe(header);
 
 // Animations will restart
-const card1 = document.querySelector(".x1");
-gsap.registerPlugin(ScrollTrigger);
-gsap.to(x1, {
-  scrollTrigger: {
-    trigger: x1,
-    toggleActions: "restart none none pause",
-  },
-  x: 250,
-  duration: 5,
-});
