@@ -10,7 +10,6 @@ const nav = document.querySelector(".nav");
 const tabs = document.querySelectorAll(".operations__tab");
 const tabsContainer = document.querySelector(".operations__tab-container");
 const tabsContent = document.querySelectorAll(".operations__content");
-const feature1 = document.querySelector(".feature1");
 
 // ///////////////////////////////////////
 // Modal window
@@ -121,5 +120,13 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 headerObserver.observe(header);
 
 // Animations will restart
+const card1 = document.querySelector(".x1");
 gsap.registerPlugin(ScrollTrigger);
-gsap.to();
+gsap.to(x1, {
+  scrollTrigger: {
+    trigger: x1,
+    toggleActions: "restart none none pause",
+  },
+  x: 250,
+  duration: 5,
+});
