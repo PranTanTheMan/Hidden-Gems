@@ -119,4 +119,4 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 
 headerObserver.observe(header);
 
-// Animations will restart
+// FIREBASE SDK's
