@@ -318,7 +318,9 @@ h4 {
 }
 
 .features__img {
-  width: 100%;
+  width: 80%;
+  height: 100%;
+  border-radius: 2rem;
 }
 
 .features__feature {
