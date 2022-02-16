@@ -311,6 +311,18 @@ h4 {
 
 /* FEATURES */
 
+.learnMore {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: none;
+  color: var(--color-primary);
+  transition: all 0.3s;
+}
+.learnMore:hover {
+  background: none;
+  color: var(--color-primary-darker);
+}
+
 .features {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -319,7 +331,7 @@ h4 {
 }
 
 .features__img {
-  width: 80%;
+  width: 100%;
   height: 100%;
   border-radius: 2rem;
 }
@@ -327,7 +339,7 @@ h4 {
 .features__feature {
   align-self: center;
   justify-self: center;
-  width: 80%;
+  width: 90%;
   font-size: 1.5rem;
 }
 
@@ -340,6 +352,23 @@ h4 {
   width: 5.5rem;
   border-radius: 50%;
   margin-bottom: 2rem;
+}
+
+.feature__link:link,
+.feature__link:visited {
+  z-index: 10;
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-style: normal;
+  color: #222;
+}
+
+.feature__link:hover {
+  background: none;
+  color: #979696;
 }
 
 .features__icon svg {
@@ -755,4 +784,13 @@ h4 {
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+/* 
+ABOUT STYLING
+*/
+
+.about__mission {
+  font-style: italic;
+  font-weight: 600;
 }
