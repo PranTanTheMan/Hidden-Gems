@@ -308,7 +308,24 @@ h4 {
   /* FINAL */
   /* DO NOT CHANGE */
 }
+/* INSTA POSTS */
+.like__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-icon-background);
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  float: right;
+}
 
+.insta__post {
+  float: left;
+  height: 25rem;
+  width: 33.3125rem;
+}
 /* FEATURES */
 
 .learnMore {
