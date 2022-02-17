@@ -322,9 +322,15 @@ h4 {
 }
 
 .insta__post {
-  float: left;
-  height: 25rem;
-  width: 33.3125rem;
+  max-width: 100rem;
+  width: 50rem;
+  margin: 12rem auto 0 auto;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.insta__img {
+  max-width: 100%;
 }
 /* FEATURES */
 
@@ -634,7 +640,7 @@ h4 {
 
 .testimonial__photo {
   grid-row: 1 / span 2;
-  width: 6.5rem;
+  width: 4.5rem;
   border-radius: 50%;
 }
 
