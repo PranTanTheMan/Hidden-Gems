@@ -12,6 +12,7 @@
   --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
   --color-icon: #09152f;
   --color-icon-background: #9797ff4d;
+  --background-color: #f2f2f2;
 }
 
 * {
@@ -313,24 +314,29 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-icon-background);
   height: 5.5rem;
   width: 5.5rem;
   border-radius: 50%;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
+  width: 2.5rem;
   float: right;
 }
 
 .insta__post {
-  max-width: 100rem;
-  width: 50rem;
-  margin: 12rem auto 0 auto;
-  display: inline-block;
-  background-color: #fff;
+  max-width: 50rem;
+  width: 2rem;
+  margin: 0;
+  display: flex;
 }
 
 .insta__img {
-  max-width: 100%;
+  width: 50rem;
+  margin: 0;
+  justify-content: flex-start;
+  margin-left: 9.5rem;
+  margin-bottom: 5rem;
+  box-shadow: 0 0 50px 10px rgba(34, 34, 34, 0.144);
+  border-radius: 3px;
 }
 /* FEATURES */
 
@@ -640,7 +646,7 @@ h4 {
 
 .testimonial__photo {
   grid-row: 1 / span 2;
-  width: 4.5rem;
+  width: 3.5rem;
   border-radius: 50%;
 }
 
