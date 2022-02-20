@@ -329,6 +329,10 @@ h4 {
   display: flex;
 }
 
+.detailsH3 {
+  display: flex;
+}
+
 .insta__img {
   width: 50rem;
   margin: 0;
