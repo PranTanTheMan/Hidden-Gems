@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Hidden Gems | Home Page</title>
     <meta
@@ -37,14 +41,13 @@
             <a class="nav__link" href="./explore.html">Explore</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="./blog.html">Blog</a>
+            <a class="nav__link" href="#section--3">Blog</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="./community.html">Communities</a>
+            <a class="nav__link" href="#section--3">Communities</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="./contact.html">Contact Us
-            </a>
+            <a class="nav__link" href="#section--3">Contact</a>
           </li>
           <li class="nav__item">
             <a class="nav__link nav__link--btn btn--show-modal" href="#"
@@ -53,38 +56,52 @@
           </li>
         </ul>
       </nav>
-    
+    </header>
+
     <section class="section">
-      <div>
-        <h2 class="section__description">About us</h2>
-        <div class="section-about__us">
-         <h2 class="about__mission"> <span>O</span>ur mission</h3>
-        </div>
+      <div class="about">
+        <h2 class="section__description">About Us</h2>
+        <h2 style="margin: 0 15rem 10rem 15rem">
+          <span style="font-size: 3rem; letter-spacing: 0px">H</span>
+          iddenGems is a social platform where consumers can access posts about
+          different unique locations that need to gain recognition (i.e cafes,
+          museums, local small businesses). We are not only targeting small
+          businesses, but also unknown recreational areas such as parks,
+          beaches, and farmers markets. We want our consumers to use this
+          website to add input about why they find a specific location to be
+          admirable and worthwhile to visit through a post and a short
+          description.
+        </h2>
+
+        <h2 class="section__description">Our Mission</h2>
+        <h2 style="margin: 0 15rem 30px 15rem">
+          <span style="font-size: 3rem; letter-spacing: 0px">O</span>
+          ur mission is to connect people with beautiful and memorable locations
+          in the US, spread awareness about small businesses and community
+          activities, all through a fun experience.
+        </h2>
       </div>
     </section>
 
     <footer class="footer">
       <ul class="footer__nav">
         <li class="footer__item">
-          <a class="footer__link" href="about.html">About</a>
+          <a class="footer__link" href="./about.html">About</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Pricing</a>
+          <a class="footer__link" href="./explore.html">Explore</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Terms of Use</a>
+          <a class="footer__link" href="./blog.html">Blog</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Privacy Policy</a>
+          <a class="footer__link" href="./community.html">Communities</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Careers</a>
+          <a class="footer__link" href="./contact.html">Contact Us</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Blog</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Contact Us</a>
+          <a class="footer__link" href="./profile.html">Profile</a>
         </li>
       </ul>
       <img src="HG/HGlogo.png" alt="Logo" class="footer__logo" />
@@ -94,8 +111,8 @@
     <div class="modal hidden">
       <button class="btn--close-modal">&times;</button>
       <h2 class="modal__header">
-        Open your bank account <br />
-        in just <span class="highlight">5 minutes</span>
+        Sign in or register <br />
+        using<span class="highlight" style="margin-left: 10px">SSO</span>
       </h2>
       <form class="modal__form">
         <label>First Name</label>
