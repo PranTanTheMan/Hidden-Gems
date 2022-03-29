@@ -201,6 +201,17 @@ img {
   align-items: center;
 }
 
+.about__header {
+  align-items: center;
+  display: flex;
+}
+
+.col_-1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
 .header__title {
   text-align: center;
   font-style: italic;
