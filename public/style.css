@@ -206,10 +206,16 @@ img {
   display: flex;
 }
 
-.col_-1 {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+.col__1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100px;
+}
+.row__1::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .header__title {
