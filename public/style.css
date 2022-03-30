@@ -827,10 +827,13 @@ h4 {
 /* 
 ABOUT STYLING
 */
-.row__1 {
-  display: flex;
-}
 
-.col__1 {
-  flex: 50%;
+/* .mission {
+  padding: 15rem 3rem;
+  border-top: 1px solid #ddd;
+
+  transition: transform 1s, opacity 1s;
 }
+.row {
+  margin: 15rem 3rem;
+} */
