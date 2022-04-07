@@ -827,13 +827,6 @@ h4 {
 /* 
 ABOUT STYLING
 */
-
-/* .mission {
-  padding: 15rem 3rem;
-  border-top: 1px solid #ddd;
-
-  transition: transform 1s, opacity 1s;
+.HGlogo {
+  align-self: center;
 }
-.row {
-  margin: 15rem 3rem;
-} */
