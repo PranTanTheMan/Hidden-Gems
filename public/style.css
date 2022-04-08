@@ -908,6 +908,11 @@ ABOUT STYLING
   padding: 2rem;
 }
 
+.btn {
+  text-decoration: none;
+  color: #fff;
+}
+
 .card .btn {
   padding: 1rem 2.5rem;
   background-color: #445ae3;
