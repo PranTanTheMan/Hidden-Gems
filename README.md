@@ -1,2 +1,1 @@
-# -Final- HiddenGems
- 
+# Hidden Gems
